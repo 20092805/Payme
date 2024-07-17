@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.click-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    background-color: #2d2d3a;
+}
+
+
+
+.PaymeImg {
+    width: 400px;
+    height: 100px;
+    background-color: #2d2d3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.PaymeImg h1 {
+    font-size: 35px;
+    color: #fff;
+}
+
+
+
+
+.click-form {
+    background-color: #3a3a4a;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.click-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.click-form p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.click-form form {
+    margin-bottom: 20px;
+}
+
+.click-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.click-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.click-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0099cc;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.click-form button:hover {
+    background-color: #0077aa;
+}
+
+.return-bot {
+    background-color: transparent;
+    border: 1px solid #0099cc;
+    color: #0099cc;
+    margin-top: 10px;
+}
+
+.return-bot:hover {
+    background-color: #0099cc;
+    color: white;
+}
+
+
+.input-error {
+    outline: red;
+    border: 2px solid red; 
+    background-color: #fdd; 
+  }
+  
